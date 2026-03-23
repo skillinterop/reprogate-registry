@@ -27,6 +27,3 @@ build/
 tmp/
 temp/
 *.tmp
-
-# Local tool state
-.omc/
