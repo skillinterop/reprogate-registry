@@ -1,3 +1,15 @@
+---
+name: code-review-gate
+version: 0.1.0
+description: Code review quality gate for reproducible review workflows
+author: org
+canonicalId: reprogate/org/code-review-gate@0.1.0
+tags: [reprogate, code-review, quality-gate]
+gateType: review
+triggerEvents: [pull_request]
+requiredChecks: [lint, test, type-check]
+---
+
 # code-review-gate
 
 재현 가능한 리뷰 워크플로우를 위한 코드 리뷰 품질 게이트입니다.

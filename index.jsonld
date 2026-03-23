@@ -1,0 +1,21 @@
+{
+  "@context": {
+    "@vocab": "http://schema.org/",
+    "skillinterop": "https://skillinterop.org/ns#"
+  },
+  "@type": "DataCatalog",
+  "name": "ReproGate Registry",
+  "description": "Leaf registry for reproducible quality gates",
+  "dataset": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "reprogate/org/code-review-gate@0.1.0",
+      "name": "code-review-gate",
+      "version": "0.1.0",
+      "description": "Code review quality gate for reproducible review workflows",
+      "url": "./gates/code-review-gate/GATE.md",
+      "skillinterop:status": "active",
+      "skillinterop:channel": "experimental"
+    }
+  ]
+}
